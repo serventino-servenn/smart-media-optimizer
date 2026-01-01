@@ -50,6 +50,22 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.navigation:navigation-compose:2.9.6")
+
+    implementation("androidx.work:work-runtime-ktx:2.11.0")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.10.0")
+
+    implementation("io.coil-kt:coil-compose:2.7.0")
+
+    // Accompanist for permissions
+    implementation("com.google.accompanist:accompanist-permissions:0.37.3")
+
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
